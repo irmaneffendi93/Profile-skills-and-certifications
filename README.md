@@ -1,13 +1,5 @@
 # Irman Efendi — SOC Analyst (Tier 1) Portfolio
 
-**IT Infrastructure & Cybersecurity Specialist** yang sedang transisi ke peran **SOC Analyst (Tier 1)**.
-
-📍 South Tangerang, Banten, Indonesia
-📧 irmaneffendie93@gmail.com
-📞 +62 853-7512-1014
-
----
-
 ## 📄 Ringkasan Profesional
 
 Spesialis IT Infrastructure & Cybersecurity dengan pengalaman kerja lebih dari 1,5 tahun dan latar belakang pendidikan Diploma Teknik Telekomunikasi, sedang bertransisi ke operasional **SOC Analyst (Tier 1)**. Memiliki kemampuan dalam pemantauan ancaman aset IT, analisis log SIEM menggunakan **Splunk Enterprise (SPL)**, inspeksi paket jaringan dengan **Wireshark**, triase alert (True Positive vs False Positive), pemetaan **MITRE ATT&CK**, dan eskalasi insiden sesuai **NIST SP 800-61**. Bersertifikat dalam Standar Kompetensi Kerja Nasional Indonesia (**KEPNAKER No. 391/2020**) untuk operasional SOC.
@@ -24,6 +16,7 @@ Spesialis IT Infrastructure & Cybersecurity dengan pengalaman kerja lebih dari 1
 | **Network & Packet Analysis** | Wireshark (PCAP Inspection, TCP/HTTP Stream Analysis, Display Filters), TCP/IP, DNS, HTTP/HTTPS, Firewall & WAF Log Review |
 | **Infrastructure & Endpoint** | IT Asset Monitoring, Vulnerability Detection, EDR Alert Triage (LSASS Access, PowerShell, Ransomware Containment), IT Hardware Support & Troubleshooting |
 | **Enterprise Software** | Microsoft Office, SAP, Lotus Notes, PEB, G-Soft |
+| **Case Study** | Website & Server Unreachable |
 
 ---
 
@@ -54,23 +47,18 @@ Spesialis IT Infrastructure & Cybersecurity dengan pengalaman kerja lebih dari 1
 
 > Studi kasus hasil simulasi lab (Splunk Enterprise & Wireshark lokal), didokumentasikan dengan pendekatan analisis SOC Tier 1: identifikasi, triase, dan rekomendasi eskalasi.
 
+
+### Case 1, 2 & 3 — Brute Force, SQL Injection & Active Reconnaissance Detection (Splunk Enterprise)
+- Menginvestigasi percobaan login admin eksternal yang mencurigakan dari satu subnet yang sama (**T1110, T1078**) → diklasifikasikan **True Positive (High)**, direkomendasikan penerapan MFA dan reset password.
+- Memvalidasi percobaan SQL Injection yang diblokir WAF (**T1190**, HTTP 403) dan burst TCP Port Scanning (**T1595**) menggunakan SPL queries, dengan usulan firewall blocklist dan hardening service.
+  
 ### Case 4 & 5 — Malware, Ransomware, LSASS Dumping & Data Exfiltration Correlation (Splunk Enterprise)
 Mengorelasikan alert endpoint kritikal pada host `192.0.2.100` yang melibatkan eksekusi PowerShell mencurigakan (**T1059.001**), perilaku ransomware (**T1486**), dan LSASS credential dumping (**T1003.001**), bersamaan dengan upaya transfer keluar sebesar 810.62 MB ke IP eksternal (**T1048**).
 - **Klasifikasi:** True Positive (Critical)
 - **Rekomendasi:** Isolasi host, blokir IP, reset kredensial, eskalasi ke Tier 2.
 
-### Case 1, 2 & 3 — Brute Force, SQL Injection & Active Reconnaissance Detection (Splunk Enterprise)
-- Menginvestigasi percobaan login admin eksternal yang mencurigakan dari satu subnet yang sama (**T1110, T1078**) → diklasifikasikan **True Positive (High)**, direkomendasikan penerapan MFA dan reset password.
-- Memvalidasi percobaan SQL Injection yang diblokir WAF (**T1190**, HTTP 403) dan burst TCP Port Scanning (**T1595**) menggunakan SPL queries, dengan usulan firewall blocklist dan hardening service.
-
 ### Case 6 — HTTP Traffic Packet Inspection & False Positive Triage (Wireshark PCAP)
 Memeriksa capture `.pcapng` berisi 149 paket menggunakan display filter dan Follow TCP Stream, mengidentifikasi permintaan update Microsoft Office yang gagal (HTTP 400), dan menutup alert sebagai **Benign / False Positive**.
-
----
-
-## 🧰 Case Study Tambahan — IT Troubleshooting
-
-- **[Case Study: Website & Server Unreachable — Physical LAN Cable Fault](https://github.com/irmaneffendi93/Case-Study-Website-Server-Troubleshooting)** — Troubleshooting konektivitas server end-to-end (browser → PowerShell `Test-NetConnection` → pemeriksaan fisik) yang berujung pada perbaikan kabel LAN kendor.
 
 ---
 
