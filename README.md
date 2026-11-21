@@ -4,9 +4,6 @@
 
 Spesialis IT Infrastructure & Cybersecurity dengan pengalaman kerja lebih dari 1,5 tahun dan latar belakang pendidikan Diploma Teknik Telekomunikasi, sedang bertransisi ke operasional **SOC Analyst (Tier 1)**. Memiliki kemampuan dalam pemantauan ancaman aset IT, analisis log SIEM menggunakan **Splunk Enterprise (SPL)**, inspeksi paket jaringan dengan **Wireshark**, triase alert (True Positive vs False Positive), pemetaan **MITRE ATT&CK**, dan eskalasi insiden sesuai **NIST SP 800-61**. Bersertifikat dalam Standar Kompetensi Kerja Nasional Indonesia (**KEPNAKER No. 391/2020**) untuk operasional SOC.
 
-📁 CV lengkap (format ATS): [`cv/CV_ATS_Irman_Efendi_SOC_Analyst_EN-v2.pdf`](cv/CV_ATS_Irman_Efendi_SOC_Analyst_EN-v2.pdf)
-
----
 
 ## 🛠️ Technical Skills & SOC Competencies
 
@@ -20,28 +17,6 @@ Spesialis IT Infrastructure & Cybersecurity dengan pengalaman kerja lebih dari 1
 
 ---
 
-## 💼 Pengalaman Kerja
-
-### IT Infrastructure & Cybersecurity Specialist — BMD Group Corp (PT Bisa Mandiri Strategi Investasi)
-*Mei 2025 – Oktober 2026*
-- Memantau infrastruktur IT korporat dan aset sistem terhadap aktivitas ancaman siber, serta melakukan asesmen deteksi kerentanan secara rutin.
-- Menganalisis log keamanan, mengevaluasi dampak insiden, menentukan kontrol penanganan awal, dan mendokumentasikan tiket insiden keamanan siber.
-- Menjaga keandalan jaringan, ketersediaan hardware, dan dukungan teknis infrastruktur IT di lingkungan kantor dan laboratorium.
-
-### Senior Staff General Affair — PT. Sicepat Express Indonesia
-*2021 – Mei 2025*
-- Mengontrol dan memantau inventaris aset fisik serta atribut operasional di 26 kantor cabang melalui pelacakan terpusat.
-- Menyelesaikan masalah operasional, mengelola infrastruktur fasilitas, dan mengoordinasikan vendor eksternal untuk pembukaan cabang baru.
-
-### Staff General Affair — PT. Mitra Ayu Adipratama
-*2019 – 2021*
-- Mengelola catatan inventaris kantor masuk dan keluar serta mengoordinasikan logistik dengan supplier, vendor, dan forwarder internasional.
-
-### Staff General Affair — PT. Pindo Deli Pulp and Paper Mills
-*2015 – 2019*
-- Berkoordinasi dengan teknisi internal dan vendor maintenance untuk peralatan elektronik kantor serta mendukung sistem regulasi ekspor-impor.
-
----
 
 ## 🔎 Cybersecurity Lab & SOC Investigation Portfolio
 
