@@ -1,42 +1,103 @@
-# Irman Efendi
+# Irman Efendi — SOC Analyst (Tier 1) Portfolio
 
-**SOC Analyst (Tier 1) | IT Infrastructure & Cybersecurity**
-South Tangerang, Banten, Indonesia · irmaneffendie93@gmail.com
+**IT Infrastructure & Cybersecurity Specialist** yang sedang transisi ke peran **SOC Analyst (Tier 1)**.
 
-## About
+📍 South Tangerang, Banten, Indonesia
+📧 irmaneffendie93@gmail.com
+📞 +62 853-7512-1014
 
-IT Infrastructure & Cybersecurity professional with a Diploma (D3) in Telecommunication Engineering, transitioning into SOC Analyst (Tier 1) operations. Hands-on work in IT asset monitoring, SIEM log analysis with Splunk Enterprise (SPL), packet inspection with Wireshark, alert triage (True Positive vs. False Positive), MITRE ATT&CK mapping, and incident escalation aligned with NIST SP 800-61.
+---
 
-## Skills
+## 📄 Ringkasan Profesional
 
-| Area | Tools / Topics |
+Spesialis IT Infrastructure & Cybersecurity dengan pengalaman kerja lebih dari 1,5 tahun dan latar belakang pendidikan Diploma Teknik Telekomunikasi, sedang bertransisi ke operasional **SOC Analyst (Tier 1)**. Memiliki kemampuan dalam pemantauan ancaman aset IT, analisis log SIEM menggunakan **Splunk Enterprise (SPL)**, inspeksi paket jaringan dengan **Wireshark**, triase alert (True Positive vs False Positive), pemetaan **MITRE ATT&CK**, dan eskalasi insiden sesuai **NIST SP 800-61**. Bersertifikat dalam Standar Kompetensi Kerja Nasional Indonesia (**KEPNAKER No. 391/2020**) untuk operasional SOC.
+
+📁 CV lengkap (format ATS): [`cv/CV_ATS_Irman_Efendi_SOC_Analyst_EN-v2.pdf`](cv/CV_ATS_Irman_Efendi_SOC_Analyst_EN-v2.pdf)
+
+---
+
+## 🛠️ Technical Skills & SOC Competencies
+
+| Kategori | Kemampuan |
 |---|---|
-| SOC & SIEM | Splunk Enterprise (SPL, threshold alerting, correlation), alert triage (TP/FP), severity scoring, Tier 2 escalation, incident ticketing, NIST SP 800-61, MITRE ATT&CK |
-| Network & packet analysis | Wireshark (PCAP, display filters, Follow TCP Stream), TCP/IP, DNS, HTTP/HTTPS, firewall & WAF log review |
-| Infrastructure & endpoint | IT asset monitoring, vulnerability detection, EDR alert triage (LSASS access, PowerShell, ransomware containment), IT support & troubleshooting |
-| Web / database troubleshooting | nginx, PHP, MariaDB/MySQL, phpMyAdmin, Cloudflare diagnostics |
+| **SOC Operations & SIEM** | Splunk Enterprise (SPL Queries, Threshold Alerting, Cross-Case Correlation), Alert Triage (TP/FP), Severity Scoring, Tier 2 Escalation, Incident Ticketing, NIST SP 800-61, MITRE ATT&CK Framework |
+| **Network & Packet Analysis** | Wireshark (PCAP Inspection, TCP/HTTP Stream Analysis, Display Filters), TCP/IP, DNS, HTTP/HTTPS, Firewall & WAF Log Review |
+| **Infrastructure & Endpoint** | IT Asset Monitoring, Vulnerability Detection, EDR Alert Triage (LSASS Access, PowerShell, Ransomware Containment), IT Hardware Support & Troubleshooting |
+| **Enterprise Software** | Microsoft Office, SAP, Lotus Notes, PEB, G-Soft |
 
-## Portfolio
+---
 
-| Project | Summary |
-|---|---|
-| [SOC lab investigations (6 cases)](projects/soc-lab-cases/README.md) | Splunk Enterprise and Wireshark case studies mapped to MITRE ATT&CK (lab simulations) |
-| [Web troubleshooting: 502 Bad Gateway](projects/web-troubleshooting-502/README.md) | Real-world recovery of a WordPress site from a crashed MyISAM table |
+## 💼 Pengalaman Kerja
 
-## Work Experience
+### IT Infrastructure & Cybersecurity Specialist — BMD Group Corp (PT Bisa Mandiri Strategi Investasi)
+*Mei 2025 – Oktober 2026*
+- Memantau infrastruktur IT korporat dan aset sistem terhadap aktivitas ancaman siber, serta melakukan asesmen deteksi kerentanan secara rutin.
+- Menganalisis log keamanan, mengevaluasi dampak insiden, menentukan kontrol penanganan awal, dan mendokumentasikan tiket insiden keamanan siber.
+- Menjaga keandalan jaringan, ketersediaan hardware, dan dukungan teknis infrastruktur IT di lingkungan kantor dan laboratorium.
 
-**IT Infrastructure & Cybersecurity Specialist** — BMD Group Corp (PT Bisa Mandiri Strategi Investasi), May 2025 – Oct 2026
-- Monitored corporate IT infrastructure and assets against cyber threat activity and performed routine vulnerability detection.
-- Analyzed security logs, evaluated incident impact, determined initial containment controls, and documented incident tickets.
-- Maintained network reliability, hardware availability, and IT infrastructure support across office and laboratory environments.
+### Senior Staff General Affair — PT. Sicepat Express Indonesia
+*2021 – Mei 2025*
+- Mengontrol dan memantau inventaris aset fisik serta atribut operasional di 26 kantor cabang melalui pelacakan terpusat.
+- Menyelesaikan masalah operasional, mengelola infrastruktur fasilitas, dan mengoordinasikan vendor eksternal untuk pembukaan cabang baru.
 
-**Earlier roles (General Affairs, 2015 – May 2025):** PT. Sicepat Express Indonesia (Senior Staff, 2021 – May 2025), PT. Mitra Ayu Adipratama (2019 – 2021), PT. Pindo Deli Pulp and Paper Mills (2015 – 2019). Asset inventory control across 26 branch offices, vendor coordination, and facility and equipment support.
+### Staff General Affair — PT. Mitra Ayu Adipratama
+*2019 – 2021*
+- Mengelola catatan inventaris kantor masuk dan keluar serta mengoordinasikan logistik dengan supplier, vendor, dan forwarder internasional.
 
-## Education & Training
+### Staff General Affair — PT. Pindo Deli Pulp and Paper Mills
+*2015 – 2019*
+- Berkoordinasi dengan teknisi internal dan vendor maintenance untuk peralatan elektronik kantor serta mendukung sistem regulasi ekspor-impor.
 
-- **Associate Degree (D3), Telecommunication Engineering** — Politeknik Negeri Padang, 2011 – 2014
-- **Cybersecurity Awareness Training Integrated with KEPNAKER No. 391/2020** — BMD Street Consulting, 23–24 Sep 2025. See [details](certifications/README.md).
+---
 
-## Documents
+## 🔎 Cybersecurity Lab & SOC Investigation Portfolio
 
-The CV and the employment reference letter are available on request.
+> Studi kasus hasil simulasi lab (Splunk Enterprise & Wireshark lokal), didokumentasikan dengan pendekatan analisis SOC Tier 1: identifikasi, triase, dan rekomendasi eskalasi.
+
+### Case 4 & 5 — Malware, Ransomware, LSASS Dumping & Data Exfiltration Correlation (Splunk Enterprise)
+Mengorelasikan alert endpoint kritikal pada host `192.0.2.100` yang melibatkan eksekusi PowerShell mencurigakan (**T1059.001**), perilaku ransomware (**T1486**), dan LSASS credential dumping (**T1003.001**), bersamaan dengan upaya transfer keluar sebesar 810.62 MB ke IP eksternal (**T1048**).
+- **Klasifikasi:** True Positive (Critical)
+- **Rekomendasi:** Isolasi host, blokir IP, reset kredensial, eskalasi ke Tier 2.
+
+### Case 1, 2 & 3 — Brute Force, SQL Injection & Active Reconnaissance Detection (Splunk Enterprise)
+- Menginvestigasi percobaan login admin eksternal yang mencurigakan dari satu subnet yang sama (**T1110, T1078**) → diklasifikasikan **True Positive (High)**, direkomendasikan penerapan MFA dan reset password.
+- Memvalidasi percobaan SQL Injection yang diblokir WAF (**T1190**, HTTP 403) dan burst TCP Port Scanning (**T1595**) menggunakan SPL queries, dengan usulan firewall blocklist dan hardening service.
+
+### Case 6 — HTTP Traffic Packet Inspection & False Positive Triage (Wireshark PCAP)
+Memeriksa capture `.pcapng` berisi 149 paket menggunakan display filter dan Follow TCP Stream, mengidentifikasi permintaan update Microsoft Office yang gagal (HTTP 400), dan menutup alert sebagai **Benign / False Positive**.
+
+---
+
+## 🧰 Case Study Tambahan — IT Troubleshooting
+
+- **[Case Study: Website & Server Unreachable — Physical LAN Cable Fault](https://github.com/irmaneffendi93/Case-Study-Website-Server-Troubleshooting)** — Troubleshooting konektivitas server end-to-end (browser → PowerShell `Test-NetConnection` → pemeriksaan fisik) yang berujung pada perbaikan kabel LAN kendor.
+
+---
+
+## 🎓 Education & Certifications
+
+| Sertifikasi / Pendidikan | Penyelenggara | Tahun |
+|---|---|---|
+| Associate Degree (D3) Telecommunication Engineering | Politeknik Negeri Padang | 2011 – 2014 |
+| Cybersecurity Awareness Training — Integrated with KEPNAKER No. 391/2020 (Reg. No: 01/BMD/CBA/IX/26) | BMD Street Consulting | September 2025 |
+| Security Blue Team — Certified Blue Team Level 1 (BTL1) *(Certification ID: 884544262)* | Security Blue Team | 2 Februari 2026 |
+
+📁 Sertifikat: [`certificates/`](certificates/)
+- [Security Blue Team — BTL1 Certificate](certificates/Security_Blue_Team_Certificate__1_.pdf)
+- [Sertifikat Cybersecurity Awareness — BMD Street Consulting](certificates/Sertifikat_SOC_Irman_Efendi.pdf)
+
+**6 unit kompetensi SKKNI SOC yang diselesaikan (KEPNAKER No. 391/2020):**
+1. `J.62SOC00.008.1` — Melakukan Pemantauan Aset Teknologi Informasi (TI) terhadap Aktivitas Ancaman Siber
+2. `J.62SOC00.006.1` — Melakukan Deteksi Kerentanan Aset Teknologi Informasi (TI)
+3. `J.62SOC00.011.1` — Menganalisis Log pada Security Operations Center (SOC)
+4. `J.62SOC00.005.1` — Melakukan Analisis Keamanan Siber terhadap Insiden untuk Menentukan Kendali
+5. `J.62SOC00.018.1` — Menganalisis Dampak Insiden Keamanan Siber
+6. `J.62SOC00.010.1` — Memberikan Tiket terhadap Insiden Keamanan Siber
+
+---
+
+## 📫 Contact
+
+- Email: irmaneffendie93@gmail.com
+- Phone/WhatsApp: +62 853-7512-1014
+- Location: South Tangerang, Banten, Indonesia
